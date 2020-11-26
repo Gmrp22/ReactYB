@@ -1,19 +1,23 @@
 import React from "react";
-import NavBar from "../components/NavBar";
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import NavBarHorizontal from "../components/NavBarHorizontal";
+import NavBarVertical from "../components/NavBarVertical";
+
 class Home extends React.Component {
   render() {
     return (
-      
-        <NavBar />
-   
+      <div>
+        <div>
+          <NavBarHorizontal />
+        </div>
+        <div>
+          <NavBarVertical />
+        </div>
+        <div>
+          dd
+        </div>
+      </div>
     );
   }
 }
 
 export default Home;
-
-
-
-

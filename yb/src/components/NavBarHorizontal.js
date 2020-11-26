@@ -1,16 +1,16 @@
 import React from "react";
 import "./styles/colors.css";
 import yblogo from "../images/youtube.svg";
-import "./styles/navbar.css";
+import "./styles/navbarhorizontal.css";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-class NavBar extends React.Component {
+class NavBarHorizontal extends React.Component {
   render() {
     return (
       <div>
         {/* <nav className="navbar navbar-light bg-light row"> */}
-        <ul>
+        <ul className="navhorizontal">
           <li>
             <button
               className="navbar-toggler"
@@ -28,7 +28,7 @@ class NavBar extends React.Component {
           <li>
             <a className="navbar-brand" href="#">
               <img src={yblogo} width="30" height="30" alt="" loading="lazy" />
-              <spa> </spa>
+              
               <b height="10px">YouTube</b>
               {/* Buacar letra */}
             </a>
@@ -69,7 +69,7 @@ class NavBar extends React.Component {
     );
   }
 }
-export default NavBar;
+export default NavBarHorizontal;
 
 // <button class="navbar-toggler">
 //   <span class="navbar-toggler-icon"></span>

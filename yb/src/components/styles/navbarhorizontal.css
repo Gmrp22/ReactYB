@@ -1,17 +1,18 @@
-ul {
+.navhorizontal {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: white;
+  display: block;
 }
 
-li {
+.navhorizontal li {
   float: left;
   display: inline;
 }
 
-li a {
+.navhorizontal li a {
   
   color: black;
   text-align: center;
@@ -19,15 +20,12 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.navhorizontal li a:hover {
   text-decoration: none;
   color: black;
 }
 
-li a:active {
-  text-decoration: none;
-  color: black;
-}
+
 
 ul .navbarform {
 width: 800px;

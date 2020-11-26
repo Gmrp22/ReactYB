@@ -1,0 +1,25 @@
+ .navvertical  {
+  list-style-type: none;
+  width: 200px;
+  background-color: #f1f1f1;
+  margin-top: 500;
+  display: block;
+}
+
+ .navvertical li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  
+}
+
+.vertical{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    display: block;
+    background-color: #f1f1f1;
+}
+
+
