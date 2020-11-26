@@ -1,34 +1,36 @@
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:white;
-    
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    text-decoration: none;
-    color: black;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
 
-  li a:active{
-    text-decoration: none;
-    color: black;
-  }
+li {
+  float: left;
+  display: inline;
+}
 
-  .button{
-      background-color: #606060;
-  }
+li a {
+  
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+li a:active {
+  text-decoration: none;
+  color: black;
+}
+
+ul .navbarform {
+width: 800px;
+align-self: center;
+
+}

@@ -3,6 +3,7 @@ import "./styles/colors.css";
 import yblogo from "../images/youtube.svg";
 import "./styles/navbar.css";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 class NavBar extends React.Component {
   render() {
@@ -11,11 +12,18 @@ class NavBar extends React.Component {
         {/* <nav className="navbar navbar-light bg-light row"> */}
         <ul>
           <li>
-            <a>
-              <button>
-                <FontAwesomeIcon icon={faBars} />
-              </button>
-            </a>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarToggleExternalContent"
+              aria-controls="navbarToggleExternalContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
           </li>
           <li>
             <a className="navbar-brand" href="#">
@@ -26,8 +34,8 @@ class NavBar extends React.Component {
             </a>
           </li>
           <li>
-            <div>
-              <form>
+            {/* <div>
+              <form className="navbarform">
                 <input
                   class="form-control mr-sm-2"
                   type="search"
@@ -36,10 +44,24 @@ class NavBar extends React.Component {
                   width="100px"
                 >
 
-                  {/* {/* falta icono */}
                 </input>
                 
               </form>
+            </div> */}
+            <div className="input-group mb-3 navbarform">
+              <div className="input-group-prepend">
+                <span className="input-group-text" id="basic-addon1">
+                  <FontAwesomeIcon icon={faSearch} />
+                </span>
+              </div>
+
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Search"
+                aria-label="Search"
+                aria-describedby="basic-addon1"
+              />
             </div>
           </li>
         </ul>
