@@ -16,13 +16,13 @@ class InfoVideo extends React.Component {
         {/* TITULOS */}
         <div class="video-details">
           <a href="#" class="video-title">
-            Video Title
+          {this.props.titulo}
           </a>
           <a href="#" class="video-channel-name">
-            Channel Name
+          {this.props.nombrecanal}
           </a>
           <div class="video-metadata">
-            <span>12K views</span>•<span>1 week ago</span>
+            <span>{this.props.vistas}</span>•<span>{this.props.tiempo}</span>
           </div>
         </div>
       </div>
@@ -30,3 +30,4 @@ class InfoVideo extends React.Component {
   }
 }
 export default InfoVideo;
+
