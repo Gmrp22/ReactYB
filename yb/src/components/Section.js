@@ -6,18 +6,7 @@ class Section extends React.Component {
   render() {
     return (
       <section class="video-section">
-        <article class="video-container">
-          <Thumbnail urlvideo={this.props.urlvideo}
-          duracion = {this.props.duracion}
-          />
-          <InfoVideo 
-          imgcanal = {this.props.imgcanal}
-          titulo = {this.props.titulo}
-          nombrecanal = {this.props.nombrecanal}
-          vistas = {this.props.vistas}
-          tiempo = {this.props.tiempo}
-          />
-        </article>
+       
 
         <article class="video-container">
           <Thumbnail urlvideo={this.props.urlvideo}
@@ -31,32 +20,7 @@ class Section extends React.Component {
           tiempo = {this.props.tiempo}
           />
         </article>
-
-
-        <article class="video-container">
-          <Thumbnail urlvideo={this.props.urlvideo}
-          duracion = {this.props.duracion}
-          />
-          <InfoVideo 
-          imgcanal = {this.props.imgcanal}
-          titulo = {this.props.titulo}
-          nombrecanal = {this.props.nombrecanal}
-          vistas = {this.props.vistas}
-          tiempo = {this.props.tiempo}
-          />
-        </article>
-        <article class="video-container">
-          <Thumbnail urlvideo={this.props.urlvideo}
-          duracion = {this.props.duracion}
-          />
-          <InfoVideo 
-          imgcanal = {this.props.imgcanal}
-          titulo = {this.props.titulo}
-          nombrecanal = {this.props.nombrecanal}
-          vistas = {this.props.vistas}
-          tiempo = {this.props.tiempo}
-          />
-        </article>
+   
         
       </section>
     );
