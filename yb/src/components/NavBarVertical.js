@@ -13,67 +13,93 @@ class NavBarVertical extends React.Component {
       <div className="vertical">
         <ul className="navvertical">
           <li>
-            <a>
-              <FontAwesomeIcon icon={faHome} />
+            <a className="links">
+              <span>
+                <FontAwesomeIcon icon={faHome} />
+              </span>
               &nbsp;&nbsp; Home
             </a>
           </li>
           <li>
-            <a>
-              <FontAwesomeIcon icon={faFire} />
+          <a className="links">
+              <span>
+                {" "}
+                <FontAwesomeIcon icon={faFire} />
+              </span>
               &nbsp;&nbsp; Trending
             </a>
           </li>
           <li>
-            <a>
-              <FontAwesomeIcon icon={faFire} />
+          <a className="links">
+              <span>
+                {" "}
+                <FontAwesomeIcon icon={faFire} />
+              </span>
               &nbsp;&nbsp; Subs
             </a>
           </li>
-          </ul>
-          <ul className="navvertical">
+        </ul>
+        <ul className="navvertical">
           <li>
             <a>LIBRARY</a>
           </li>
 
           <li>
-            <a>
-              <FontAwesomeIcon icon={faHistory} />
+          <a className="links">
+              <span>
+                {" "}
+                <FontAwesomeIcon icon={faHistory} />
+              </span>
               &nbsp;&nbsp; History
             </a>
           </li>
           <li>
-            <a>
-              <FontAwesomeIcon icon={faClock} />
+          <a className="links">
+              <span>
+                {" "}
+                <FontAwesomeIcon icon={faClock} />
+              </span>
               &nbsp;&nbsp; Watch Later
             </a>
           </li>
           <li>
-            <a>
-              <FontAwesomeIcon icon={faThumbsUp} />
+          <a className="links">
+              <span>
+                {" "}
+                <FontAwesomeIcon icon={faThumbsUp} />
+              </span>
               &nbsp;&nbsp; Liked Videos
             </a>
           </li>
           <li>
-            <a>
-              <FontAwesomeIcon icon={faTag} />
+          <a className="links">
+              <span>
+                {" "}
+                <FontAwesomeIcon icon={faTag} />
+              </span>
               &nbsp;&nbsp; Purchase
             </a>
           </li>
           <li>
-            <a>
-              <FontAwesomeIcon icon={faThumbsUp} />
+          <a className="links">
+              <span>
+                {" "}
+                <FontAwesomeIcon icon={faThumbsUp} />
+              </span>
               &nbsp;&nbsp; LOL Cots
             </a>
           </li>
           <li>
-            <a>
-              <FontAwesomeIcon icon={faThumbsUp} />
+          <a className="links">
+              <span>
+                {" "}
+                <FontAwesomeIcon icon={faThumbsUp} />
+              </span>
               &nbsp;&nbsp; Classic
             </a>
           </li>
-          </ul>
-          <ul className="navvertical">
+        </ul>
+        <ul className="navvertical">
           <li>
             <a>SUBSCRIPTIONS</a>
           </li>
