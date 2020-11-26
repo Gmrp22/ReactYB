@@ -1,0 +1,41 @@
+ .navvertical  {
+  list-style-type: none;
+  width: 200px;
+  background-color: #f1f1f1;
+  margin-top: 500;
+  display: block;
+}
+
+ .navvertical li a {
+  display: block;
+  color: #000;
+  /* padding: 3px 3px 8px; */
+
+  padding-bottom: 8px;
+  padding-top: 8px;
+  text-decoration: none;
+
+}
+.navvertical span{
+  padding-right: 8px;
+  padding-left: 0px;
+}
+
+.vertical{
+    margin-top: 500;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    display: block;
+    padding-top: 70px;
+    background-color: #f1f1f1;
+}
+
+ .links:hover {
+color: red;
+
+}
+.links:active {
+  color: red;
+  
+  }
