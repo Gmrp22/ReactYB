@@ -1,4 +1,4 @@
-.navhorizontal {
+/* .navhorizontal {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -32,3 +32,53 @@ width: 800px;
 align-self: center;
 
 }
+
+.divhorizontal {
+  
+} */
+
+
+/* .horizontal{
+  position: fixed;
+  top: 0px;
+  overflow: auto;
+}
+
+.navhorizontal{
+    width: 100%;
+    overflow: hidden;
+    height: 44px;
+} */
+
+.navhorizontal{
+  width: 100%;
+  overflow: hidden;
+  height: 44px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navhorizontal li {
+  float: left;
+}
+
+.navhorizontal li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 50px;
+}
+
+.navhorizontal .navbarform{
+  padding-left: 290px;
+  width: 1000px;
+}
+
+.search{
+  width: 100%;
+  
+}
+

@@ -30,6 +30,8 @@ class NavBarVertical extends React.Component {
               &nbsp;&nbsp; Subs
             </a>
           </li>
+          </ul>
+          <ul className="navvertical">
           <li>
             <a>LIBRARY</a>
           </li>
@@ -70,6 +72,8 @@ class NavBarVertical extends React.Component {
               &nbsp;&nbsp; Classic
             </a>
           </li>
+          </ul>
+          <ul className="navvertical">
           <li>
             <a>SUBSCRIPTIONS</a>
           </li>
