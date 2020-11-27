@@ -3,13 +3,17 @@ import "./styles/section.css";
 import Thumbnail from "./Thumbnail.js";
 import InfoVideo from "./InfoVideo.js";
 import { faIdBadge } from "@fortawesome/free-regular-svg-icons";
+import SectionHeader from "./SectionHeader.js";
 class Section extends React.Component {
   render() {
     console.log(this.props);
     const data = this.props.data;
     return (
-      
+      <div>
+        <SectionHeader />
+
       <section className="video-section">
+        
         {data.map((badge) => {
           return (
             <article className="video-container">
@@ -28,6 +32,10 @@ class Section extends React.Component {
           );
         })}
       </section>
+
+
+
+      </div>
     );
   }
 }
