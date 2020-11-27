@@ -7,13 +7,16 @@ import { faThumbsUp } from "@fortawesome/free-solid-svg-icons";
 import { faTag } from "@fortawesome/free-solid-svg-icons";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import playlist from "../images/playlist.svg";
+import home from "../images/home.svg";
+import subscription from "../images/subscription.svg";
 class NavBarVertical extends React.Component {
   render() {
     return (
       <div className="vertical">
         <ul className="navvertical">
           <li>
-            <a className="links">
+            <a className="links" id="selected">
               <span>
                 <FontAwesomeIcon icon={faHome} />
               </span>
@@ -33,9 +36,10 @@ class NavBarVertical extends React.Component {
           <a className="links">
               <span>
                 {" "}
-                <FontAwesomeIcon icon={faFire} />
+                <img src={subscription} height="20px"/>
+                
               </span>
-              &nbsp;&nbsp; Subs
+              &nbsp;&nbsp; Subscriptions
             </a>
           </li>
         </ul>
@@ -83,8 +87,8 @@ class NavBarVertical extends React.Component {
           <li>
           <a className="links">
               <span>
-                {" "}
-                <FontAwesomeIcon icon={faThumbsUp} />
+                
+                <img src={playlist} height="20px"/>
               </span>
               &nbsp;&nbsp; LOL Cots
             </a>
@@ -92,8 +96,7 @@ class NavBarVertical extends React.Component {
           <li>
           <a className="links">
               <span>
-                {" "}
-                <FontAwesomeIcon icon={faThumbsUp} />
+                <img src={playlist} height="20px"/>
               </span>
               &nbsp;&nbsp; Classic
             </a>

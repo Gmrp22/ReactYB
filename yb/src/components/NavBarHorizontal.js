@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/colors.css";
 import yblogo from "../images/youtube.svg";
+import menu from "../images/menu.svg";
 import "./styles/navbarhorizontal.css";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
@@ -16,11 +17,11 @@ import { faClock } from "@fortawesome/free-solid-svg-icons";
 class NavBarHorizontal extends React.Component {
   render() {
     return (
-      <div class="fixed-top">
-        <nav class="navbar navbar-light bg-light">
+      <div className="fixed-top">
+        <nav className="navbar navbar-light bg-light">
           <ul className="navhorizontal">
             <li>
-              <button
+              {/* <button
                 className="navbar-toggler"
                 type="button"
                 data-toggle="collapse"
@@ -30,7 +31,8 @@ class NavBarHorizontal extends React.Component {
                 aria-label="Toggle navigation"
               >
                 <span className="navbar-toggler-icon"></span>
-              </button>
+              </button> */}
+              <img src={menu} height="20px"/>
             </li>
             <li>
               <a className="navbar-brand" href="#">
