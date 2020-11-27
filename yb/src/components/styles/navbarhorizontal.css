@@ -1,53 +1,3 @@
-/* .navhorizontal {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: white;
-  display: block;
-}
-
-.navhorizontal li {
-  float: left;
-  display: inline;
-}
-
-.navhorizontal li a {
-  
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.navhorizontal li a:hover {
-  text-decoration: none;
-  color: black;
-}
-
-
-
-ul .navbarform {
-width: 800px;
-align-self: center;
-
-}
-
-.divhorizontal {
-  
-} */
-
-/* .horizontal{
-  position: fixed;
-  top: 0px;
-  overflow: auto;
-}
-
-.navhorizontal{
-    width: 100%;
-    overflow: hidden;
-    height: 44px;
-} */
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Teko:wght@500&family=Yanone+Kaffeesatz:wght@600&display=swap");
 
@@ -82,7 +32,6 @@ align-self: center;
 }
 .navhorizontal .navbarform {
   padding-left: 150px;
-  /* width: 1000px; */
   width: 100%;
   display: flex;
   

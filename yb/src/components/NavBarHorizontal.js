@@ -44,7 +44,7 @@ class NavBarHorizontal extends React.Component {
               <div>
               <form className="navbarform">
                 <input
-                  class="form-control mr-sm-2"
+                  className="form-control mr-sm-2"
                   id="searchbar"
                   type="search"
                   placeholder="Search"
