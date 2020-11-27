@@ -69,12 +69,21 @@ align-self: center;
   color: white;
   text-align: center;
   text-decoration: none;
-  padding-left: 50px;
+  padding-left: 20px;
 }
+ #boton {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 12px;
+  padding-left:25px;
 
+}
 .navhorizontal .navbarform{
   padding-left: 290px;
   width: 1000px;
+  display: flex;
 }
 
 .search{
@@ -82,3 +91,6 @@ align-self: center;
   
 }
 
+.horizontal{
+  width: 100%;
+} 

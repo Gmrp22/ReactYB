@@ -17,22 +17,12 @@ import { faClock } from "@fortawesome/free-solid-svg-icons";
 class NavBarHorizontal extends React.Component {
   render() {
     return (
-      <div className="fixed-top">
+      <div className="fixed-top horizontal">
         <nav className="navbar navbar-light bg-light">
           <ul className="navhorizontal">
             <li>
-              {/* <button
-                className="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarToggleExternalContent"
-                aria-controls="navbarToggleExternalContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span className="navbar-toggler-icon"></span>
-              </button> */}
-              <img src={menu} height="20px"/>
+
+              <img src={menu} height="20px" id="boton"/>
             </li>
             <li>
               <a className="navbar-brand" href="#">
@@ -63,7 +53,7 @@ class NavBarHorizontal extends React.Component {
                 
               </form>
             </div> */}
-              <div className="input-group mb-3 navbarform">
+              {/* <div className="input-group mb-3 navbarform">
                 <div className="input-group-prepend">
                   <span className="input-group-text" id="basic-addon1">
                     <FontAwesomeIcon icon={faSearch} />
@@ -77,7 +67,9 @@ class NavBarHorizontal extends React.Component {
                   aria-label="Search"
                   aria-describedby="basic-addon1"
                 />
-              </div>
+              </div> */}
+
+              
             </li>
           </ul>
         </nav>
