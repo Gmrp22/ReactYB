@@ -2,26 +2,31 @@ import React from "react";
 import "./styles/section.css";
 import Thumbnail from "./Thumbnail.js";
 import InfoVideo from "./InfoVideo.js";
+import { faIdBadge } from "@fortawesome/free-regular-svg-icons";
 class Section extends React.Component {
   render() {
+    console.log(this.props);
+    const data = this.props.data;
     return (
+      
       <section className="video-section">
-       
-
-        <article className="video-container">
-          <Thumbnail urlvideo={this.props.urlvideo}
-          duracion = {this.props.duracion}
-          />
-          <InfoVideo 
-          imgcanal = {this.props.imgcanal}
-          titulo = {this.props.titulo}
-          nombrecanal = {this.props.nombrecanal}
-          vistas = {this.props.vistas}
-          tiempo = {this.props.tiempo}
-          />
-        </article>
-   
-        
+        {data.map((badge) => {
+          return (
+            <article className="video-container">
+              <Thumbnail
+                urlvideo={badge.urlvideo}
+                duracion={badge.duracion}
+              />
+              <InfoVideo
+                imgcanal={badge.imgcanal}
+                titulo={badge.titulo}
+                nombrecanal={badge.nombrecanal}
+                vistas={badge.vistas}
+                tiempo={badge.tiempo}
+              />
+            </article>
+          );
+        })}
       </section>
     );
   }

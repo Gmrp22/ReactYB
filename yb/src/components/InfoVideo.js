@@ -9,7 +9,7 @@ class InfoVideo extends React.Component {
         <a href="#">
           <img
             className="channel-icon"
-            src="http://unsplash.it/36/36?gravity=center"
+            src={this.props.imgcanal}
           />
         </a>
 
