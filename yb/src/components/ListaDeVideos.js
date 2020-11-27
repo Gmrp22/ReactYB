@@ -19,11 +19,11 @@ class ListaDeVideos extends React.Component {
     return (
 
       <div className="videos-contenedor videos">
-        <SectionHeader />
+        <SectionHeader titulo = "Recommended"/>
         <Section  data = {this.state.data[0]} />
-        <SectionHeader />
+        <SectionHeader titulo= "From your subscriptions"/>
         <Section  data = {this.state.data[1]} />
-        <SectionHeader />
+        <SectionHeader titulo= "Nature-Topic" />
         <Section  data = {this.state.data[2]} />
       </div>
     );

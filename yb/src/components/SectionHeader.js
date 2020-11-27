@@ -6,7 +6,7 @@ class SectionHeader extends React.Component {
     return (
       <div className="header">
         <h5>
-          From your subscriptions
+          {this.props.titulo}
         </h5>
       </div>
     );
