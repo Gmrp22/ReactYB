@@ -22,12 +22,11 @@
 }
 
 .vertical{
-    margin-top: 500;
     height: 100%;
     width: 240px;
     position: fixed;
     display: block;
-    padding-top: 70px;
+    padding-top: 45px;
     background-color: #f1f1f1;
 }
 
@@ -42,5 +41,6 @@ color: red;
 
 #selected{
   color:red;
+  font-weight: ;
 }
 
