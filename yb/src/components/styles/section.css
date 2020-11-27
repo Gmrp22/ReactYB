@@ -10,10 +10,9 @@
   }
   
   /* .video-section:first-child {
-    border-top: none;
-  } */
+  }
 
-  
+   */
 
   .video-section-title {
     grid-column: 1 / -1;

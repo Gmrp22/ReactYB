@@ -3,7 +3,7 @@ import "./styles/listadevideos.css";
 import Section from "./Section.js";
 import { faIdBadge } from "@fortawesome/free-regular-svg-icons";
 import dataj from "../data.json";
-
+import SectionHeader from "./SectionHeader.js";
 class ListaDeVideos extends React.Component {
   state = {
     data: [],
@@ -19,9 +19,11 @@ class ListaDeVideos extends React.Component {
     return (
 
       <div className="videos-contenedor videos">
-        
+        <SectionHeader />
         <Section  data = {this.state.data[0]} />
+        <SectionHeader />
         <Section  data = {this.state.data[1]} />
+        <SectionHeader />
         <Section  data = {this.state.data[2]} />
       </div>
     );
