@@ -6,13 +6,14 @@ import "./styles/navbarhorizontal.css";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faFire } from "@fortawesome/free-solid-svg-icons";
 import { faHistory } from "@fortawesome/free-solid-svg-icons";
 import { faThumbsUp } from "@fortawesome/free-solid-svg-icons";
 import { faTag } from "@fortawesome/free-solid-svg-icons";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
+
+
 
 class NavBarHorizontal extends React.Component {
   render() {
@@ -34,7 +35,7 @@ class NavBarHorizontal extends React.Component {
                   loading="lazy"
                 />
 
-                <b height="10px">YouTube</b>
+                <b id="logoy" height="13px">YouTube</b>
                 {/* Buacar letra */}
               </a>
             </li>
@@ -50,10 +51,10 @@ class NavBarHorizontal extends React.Component {
                 >
 
                 </input>
-                
+
               </form>
             </div> */}
-              {/* <div className="input-group mb-3 navbarform">
+              <div className="input-group mb-3 navbarform">
                 <div className="input-group-prepend">
                   <span className="input-group-text" id="basic-addon1">
                     <FontAwesomeIcon icon={faSearch} />
@@ -67,9 +68,9 @@ class NavBarHorizontal extends React.Component {
                   aria-label="Search"
                   aria-describedby="basic-addon1"
                 />
-              </div> */}
+              </div>
 
-              
+
             </li>
           </ul>
         </nav>

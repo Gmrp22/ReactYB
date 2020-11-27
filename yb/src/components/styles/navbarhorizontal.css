@@ -37,7 +37,6 @@ align-self: center;
   
 } */
 
-
 /* .horizontal{
   position: fixed;
   top: 0px;
@@ -50,7 +49,9 @@ align-self: center;
     height: 44px;
 } */
 
-.navhorizontal{
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Teko:wght@500&family=Yanone+Kaffeesatz:wght@600&display=swap");
+
+.navhorizontal {
   width: 100%;
   overflow: hidden;
   height: 44px;
@@ -71,26 +72,29 @@ align-self: center;
   text-decoration: none;
   padding-left: 20px;
 }
- #boton {
+#boton {
   display: block;
   color: white;
   text-align: center;
   text-decoration: none;
   margin-top: 12px;
-  padding-left:25px;
-
+  padding-left: 25px;
 }
-.navhorizontal .navbarform{
+.navhorizontal .navbarform {
   padding-left: 290px;
   width: 1000px;
   display: flex;
 }
 
-.search{
+.search {
   width: 100%;
-  
 }
 
-.horizontal{
+.horizontal {
   width: 100%;
-} 
+
+}
+#logoy {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: large;
+}
