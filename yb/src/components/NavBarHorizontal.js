@@ -17,8 +17,8 @@ import { faClock } from "@fortawesome/free-solid-svg-icons";
 class NavBarHorizontal extends React.Component {
   render() {
     return (
-      <div class="fixed-top">
-        <nav class="navbar navbar-light bg-light">
+      <div className="fixed-top">
+        <nav className="navbar navbar-light bg-light">
           <ul className="navhorizontal">
             <li>
               {/* <button

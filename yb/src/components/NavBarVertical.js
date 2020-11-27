@@ -8,6 +8,7 @@ import { faTag } from "@fortawesome/free-solid-svg-icons";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import playlist from "../images/playlist.svg";
+import home from "../images/home.svg";
 import subscription from "../images/subscription.svg";
 class NavBarVertical extends React.Component {
   render() {
@@ -15,7 +16,7 @@ class NavBarVertical extends React.Component {
       <div className="vertical">
         <ul className="navvertical">
           <li>
-            <a className="links">
+            <a className="links" id="selected">
               <span>
                 <FontAwesomeIcon icon={faHome} />
               </span>
@@ -38,7 +39,7 @@ class NavBarVertical extends React.Component {
                 <img src={subscription} height="20px"/>
                 
               </span>
-              &nbsp;&nbsp; Subs
+              &nbsp;&nbsp; Subscriptions
             </a>
           </li>
         </ul>
