@@ -21,16 +21,17 @@ class NavBarHorizontal extends React.Component {
       <div className="fixed-top horizontal">
         <nav className="navbar navbar-light bg-light">
           <ul className="navhorizontal">
-            <li>
+            <li className="list-menu">
 
               <img src={menu} height="20px" id="boton"/>
             </li>
-            <li>
+
+            <li className="list-nombre">
               <a className="navbar-brand" href="#">
                 <img
                   src={yblogo}
                   width="30"
-                  height="25"
+                  height="28"
                   alt=""
                   loading="lazy"
                 />
@@ -39,11 +40,12 @@ class NavBarHorizontal extends React.Component {
                 {/* Buacar letra */}
               </a>
             </li>
-            <li>
-              {/* <div>
+            <li className="list-search">
+              <div>
               <form className="navbarform">
                 <input
                   class="form-control mr-sm-2"
+                  id="searchbar"
                   type="search"
                   placeholder="Search"
                   aria-label="Search"
@@ -53,8 +55,8 @@ class NavBarHorizontal extends React.Component {
                 </input>
 
               </form>
-            </div> */}
-              <div className="input-group mb-3 navbarform">
+            </div>
+              {/* <div className="input-group mb-3 navbarform">
                 <div className="input-group-prepend">
                   <span className="input-group-text" id="basic-addon1">
                     <FontAwesomeIcon icon={faSearch} />
@@ -68,7 +70,7 @@ class NavBarHorizontal extends React.Component {
                   aria-label="Search"
                   aria-describedby="basic-addon1"
                 />
-              </div>
+              </div> */}
 
 
             </li>
