@@ -8,18 +8,12 @@ class ListaDeVideos extends React.Component {
     data: [],
   };
 
-  componentDidMount() {
-    console.log("3. componentDidMount()");
-    console.log(dataj);
-    // this.setState({
-    //   data: [dataj],
-    // });
-  }
+
 
   render() {
     return (
       <div className="videos-contenedor videos">
-        {this.state.data.map((badge) => {
+        {dataj.map((badge) => {
           return (
             <Section
               urlvideo={badge.urlvideo}
@@ -35,5 +29,44 @@ class ListaDeVideos extends React.Component {
       </div>
     );
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // render() {
+  //   return (
+  //     <div className="videos-contenedor videos">
+  //       {this.state.data.map((badge) => {
+  //         return (
+  //           <Section
+  //             urlvideo={badge.urlvideo}
+  //             duracion={badge.duracion}
+  //             imgcanal={badge.imgcanal}
+  //             titulo={badge.titulo}
+  //             nombrecanal={badge.nombrecanal}
+  //             vistas={badge.vistas}
+  //             tiempo={badge.tiempo}
+  //           />
+  //         );
+  //       })}
+  //     </div>
+  //   );
+  // }
 }
 export default ListaDeVideos;

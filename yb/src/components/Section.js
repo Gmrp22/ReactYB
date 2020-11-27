@@ -5,10 +5,10 @@ import InfoVideo from "./InfoVideo.js";
 class Section extends React.Component {
   render() {
     return (
-      <section class="video-section">
+      <section className="video-section">
        
 
-        <article class="video-container">
+        <article className="video-container">
           <Thumbnail urlvideo={this.props.urlvideo}
           duracion = {this.props.duracion}
           />

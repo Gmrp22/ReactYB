@@ -4,9 +4,9 @@ import "./styles/thumbnail.css";
 class Thumbnail extends React.Component {
   render() {
     return (
-      <a href="#" class="thumbnail" data-duration={this.props.duracion}>
+      <a href="#" className="thumbnail" data-duration={this.props.duracion}>
         <img
-          class="thumbnail-image"
+          className="thumbnail-image"
           src={this.props.urlvideo}
         />
       </a>
