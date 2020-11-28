@@ -5,12 +5,12 @@ class InfoVideo extends React.Component {
   render() {
     return (
       <div className="video-bottom-section">
-        {/* CANAl */}
+        {/* Imagen del canal */}
         <a href="#">
           <img className="channel-icon" src={this.props.imgcanal} />
         </a>
 
-        {/* TITULOS */}
+        {/* Titulos y datos del video */}
         <div className="video-details">
           <a href="#" className="video-title">
             {this.props.titulo}

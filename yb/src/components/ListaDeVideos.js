@@ -7,14 +7,17 @@ class ListaDeVideos extends React.Component {
   state = {
     data: [],
   };
+
+  // Funcion que permite separar los array en la variable para poder pasarlos a las secciones
   separacionData() {
     this.state.data[0] = dataj[0];
     this.state.data[1] = dataj[1];
     this.state.data[2] = dataj[2];
   }
+
   render() {
     this.separacionData();
-
+      // Secciones y sus Headers, se les pasa la informacion para desplegarla
     return (
       <div className="videos-contenedor videos">
         <SectionHeader titulo="Recommended" />

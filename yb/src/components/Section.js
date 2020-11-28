@@ -10,8 +10,10 @@ class Section extends React.Component {
       <section className="video-section">
         {data.map((datos) => {
           return (
-            <article className="video-container"  key={datos.id}>
+            <article className="video-container" key={datos.id}>
+              {/* Imagen de video */}
               <Thumbnail urlvideo={datos.urlvideo} duracion={datos.duracion} />
+              {/* Informacion de video */}
               <InfoVideo
                 imgcanal={datos.imgcanal}
                 titulo={datos.titulo}

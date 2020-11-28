@@ -7,6 +7,7 @@ class SubsList extends React.Component {
   };
   render() {
     return (
+      // Lista de subscripciones
       <div className="vertical-subs">
         <ul className="navvertical-subs">
           {dataj.map((datos) => {

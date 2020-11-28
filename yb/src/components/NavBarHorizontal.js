@@ -19,10 +19,11 @@ class NavBarHorizontal extends React.Component {
       <div className="fixed-top horizontal">
         <nav className="navbar navbar-light bg-light">
           <ul className="navhorizontal">
+            {/* Elemento de lista para menu */}
             <li className="list-menu">
               <img src={menu} height="20px" id="boton" />
             </li>
-
+            {/* Elemento que incluye el logo */}
             <li className="list-nombre">
               <a className="navbar-brand" href="#">
                 <img
@@ -32,13 +33,12 @@ class NavBarHorizontal extends React.Component {
                   alt=""
                   loading="lazy"
                 />
-
                 <b id="logoy" height="13px">
                   YouTube
                 </b>
-                {/* Buacar letra */}
               </a>
             </li>
+            {/* Elemento input para barra de busqueda */}
             <li className="list-search">
               <div>
                 <form className="navbarform">
@@ -52,21 +52,6 @@ class NavBarHorizontal extends React.Component {
                   ></input>
                 </form>
               </div>
-              {/* <div className="input-group mb-3 navbarform">
-                <div className="input-group-prepend">
-                  <span className="input-group-text" id="basic-addon1">
-                    <FontAwesomeIcon icon={faSearch} />
-                  </span>
-                </div>
-
-                <input
-                  type="text"
-                  className="form-control search"
-                  placeholder="Search"
-                  aria-label="Search"
-                  aria-describedby="basic-addon1"
-                />
-              </div> */}
             </li>
           </ul>
         </nav>
@@ -75,7 +60,3 @@ class NavBarHorizontal extends React.Component {
   }
 }
 export default NavBarHorizontal;
-
-// <button class="navbar-toggler">
-//   <span class="navbar-toggler-icon"></span>
-// </button>

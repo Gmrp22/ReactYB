@@ -14,6 +14,7 @@ class NavBarVertical extends React.Component {
   render() {
     return (
       <div className="vertical">
+        {/* Lista con iconos y opciones */}
         <ul className="navvertical">
           <li>
             <a className="links" id="selected">
@@ -41,6 +42,8 @@ class NavBarVertical extends React.Component {
             </a>
           </li>
         </ul>
+        {/* Lista de playlist */}
+
         <ul className="navvertical">
           <li>
             <a>LIBRARY</a>
@@ -95,6 +98,7 @@ class NavBarVertical extends React.Component {
             </a>
           </li>
         </ul>
+        {/* Titulo de subs */}
         <ul className="navvertical">
           <li>
             <a>SUBSCRIPTIONS</a>
