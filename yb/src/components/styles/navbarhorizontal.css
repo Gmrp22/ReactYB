@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Teko:wght@500&family=Yanone+Kaffeesatz:wght@600&display=swap");
+
+.navhorizontal {
+  width: 100%;
+  overflow: hidden;
+  height: 44px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navhorizontal li {
+  float: left;
+}
+
+.navhorizontal li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 20px;
+}
+#boton {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 12px;
+  padding-left: 25px;
+}
+.navhorizontal .navbarform {
+  padding-left: 150px;
+  width: 100%;
+  display: flex;
+}
+#searchbar {
+  width: 80%;
+}
+.search {
+  width: 100%;
+}
+.search:focus{
+  border-color: black;
+}
+
+.horizontal {
+  width: 100%;
+  
+}
+#logoy {
+  padding-top: 10px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: larger;
+}
+* {
+  box-sizing: border-box;
+}
+
+.list-menu {
+  width: 4%;
+}
+.list-nombre {
+  width: 7%;
+}
+
+.list-search {
+  width: 89%;
+}
