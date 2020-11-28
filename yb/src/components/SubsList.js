@@ -9,13 +9,13 @@ class SubsList extends React.Component {
     return (
       <div className="vertical-subs">
         <ul className="navvertical-subs">
-          {dataj.map((badge) => {
+          {dataj.map((datos) => {
             return (
-              <li key={badge.id}>
+              <li key={datos.id}>
                 <span>
-                  <img className="subs-icon" src={badge.imgcanal} />
+                  <img className="subs-icon" src={datos.imgcanal} />
                 </span>
-                <a>{badge.nombrecanal}</a>
+                <a>{datos.nombrecanal}</a>
               </li>
             );
           })}

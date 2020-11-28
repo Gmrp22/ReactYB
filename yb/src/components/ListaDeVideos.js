@@ -1,7 +1,6 @@
 import React from "react";
 import "./styles/listadevideos.css";
 import Section from "./Section.js";
-import { faIdBadge } from "@fortawesome/free-regular-svg-icons";
 import dataj from "../json/data.json";
 import SectionHeader from "./SectionHeader.js";
 class ListaDeVideos extends React.Component {
