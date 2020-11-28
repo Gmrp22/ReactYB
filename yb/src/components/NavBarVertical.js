@@ -24,20 +24,18 @@ class NavBarVertical extends React.Component {
             </a>
           </li>
           <li>
-          <a className="links">
+            <a className="links">
               <span>
-                {" "}
                 <FontAwesomeIcon icon={faFire} />
               </span>
               &nbsp;&nbsp; Trending
             </a>
           </li>
           <li>
-          <a className="links">
+            <a className="links">
               <span>
                 {" "}
-                <img src={subscription} height="20px"/>
-                
+                <img src={subscription} height="20px" />
               </span>
               &nbsp;&nbsp; Subscriptions
             </a>
@@ -49,54 +47,49 @@ class NavBarVertical extends React.Component {
           </li>
 
           <li>
-          <a className="links">
+            <a className="links">
               <span>
-                {" "}
                 <FontAwesomeIcon icon={faHistory} />
               </span>
               &nbsp;&nbsp; History
             </a>
           </li>
           <li>
-          <a className="links">
+            <a className="links">
               <span>
-                {" "}
                 <FontAwesomeIcon icon={faClock} />
               </span>
               &nbsp;&nbsp; Watch Later
             </a>
           </li>
           <li>
-          <a className="links">
+            <a className="links">
               <span>
-                {" "}
                 <FontAwesomeIcon icon={faThumbsUp} />
               </span>
               &nbsp;&nbsp; Liked Videos
             </a>
           </li>
           <li>
-          <a className="links">
+            <a className="links">
               <span>
-                {" "}
                 <FontAwesomeIcon icon={faTag} />
               </span>
               &nbsp;&nbsp; Purchase
             </a>
           </li>
           <li>
-          <a className="links">
+            <a className="links">
               <span>
-                
-                <img src={playlist} height="20px"/>
+                <img src={playlist} height="20px" />
               </span>
               &nbsp;&nbsp; LOL Cots
             </a>
           </li>
           <li>
-          <a className="links">
+            <a className="links">
               <span>
-                <img src={playlist} height="20px"/>
+                <img src={playlist} height="20px" />
               </span>
               &nbsp;&nbsp; Classic
             </a>

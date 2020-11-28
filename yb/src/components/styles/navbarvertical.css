@@ -1,4 +1,4 @@
- .navvertical  {
+.navvertical {
   list-style-type: none;
   width: 200px;
   background-color: #f1f1f1;
@@ -6,41 +6,35 @@
   display: block;
 }
 
- .navvertical li a {
+.navvertical li a {
   display: block;
   color: #000;
-  /* padding: 3px 3px 8px; */
-
   padding-bottom: 8px;
   padding-top: 8px;
   text-decoration: none;
-
 }
-.navvertical span{
+.navvertical span {
   padding-right: 8px;
   padding-left: 0px;
 }
 
-.vertical{
-    height: 100%;
-    width: 240px;
-    position: fixed;
-    display: block;
-    padding-top: 5px;
-    background-color: #f1f1f1;
+.vertical {
+  height: 65%;
+  width: 240px;
+  position: fixed;
+  display: block;
+  padding-top: 5px;
+  background-color: #f1f1f1;
 }
 
- .links:hover {
-color: red;
-
+.links:hover {
+  color: red;
 }
 .links:active {
   color: red;
-  
-  }
-
-#selected{
-  color:red;
-  font-weight: ;
 }
 
+#selected {
+  color: red;
+  font-weight: bold;
+}

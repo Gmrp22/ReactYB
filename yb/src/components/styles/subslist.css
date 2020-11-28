@@ -1,0 +1,44 @@
+.navvertical-subs {
+  list-style-type: none;
+  width: 200px;
+  background-color: #f1f1f1;
+  margin-top: 500;
+  display: block;
+}
+
+.navvertical-subs li a {
+  display: inline;
+  color: #000;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  text-decoration: none;
+  width: 50%;
+}
+.navvertical-subs li span {
+  padding-right: 8px;
+  padding-left: 0px;
+  width: 50%;
+  display: inline;
+}
+.navvertical-subs li {
+  display: block;
+  width: 100%;
+  padding-left: 0px;
+  padding-bottom: 20px;
+}
+
+.vertical-subs {
+  height: 50%;
+  width: 240px;
+  position: fixed;
+  display: block;
+  margin-top: 465px;
+  padding-top: 10px;
+  background-color: #f1f1f1;
+}
+.subs-icon {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: #aaa;
+}

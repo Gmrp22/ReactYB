@@ -7,19 +7,16 @@ class InfoVideo extends React.Component {
       <div className="video-bottom-section">
         {/* CANAl */}
         <a href="#">
-          <img
-            className="channel-icon"
-            src={this.props.imgcanal}
-          />
+          <img className="channel-icon" src={this.props.imgcanal} />
         </a>
 
         {/* TITULOS */}
         <div className="video-details">
           <a href="#" className="video-title">
-          {this.props.titulo}
+            {this.props.titulo}
           </a>
           <a href="#" className="video-channel-name">
-          {this.props.nombrecanal}
+            {this.props.nombrecanal}
           </a>
           <div className="video-metadata">
             <span>{this.props.vistas}</span>•<span>{this.props.tiempo}</span>
@@ -30,4 +27,3 @@ class InfoVideo extends React.Component {
   }
 }
 export default InfoVideo;
-

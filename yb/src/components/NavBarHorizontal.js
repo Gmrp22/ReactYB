@@ -13,8 +13,6 @@ import { faThumbsUp } from "@fortawesome/free-solid-svg-icons";
 import { faTag } from "@fortawesome/free-solid-svg-icons";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 
-
-
 class NavBarHorizontal extends React.Component {
   render() {
     return (
@@ -22,8 +20,7 @@ class NavBarHorizontal extends React.Component {
         <nav className="navbar navbar-light bg-light">
           <ul className="navhorizontal">
             <li className="list-menu">
-
-              <img src={menu} height="20px" id="boton"/>
+              <img src={menu} height="20px" id="boton" />
             </li>
 
             <li className="list-nombre">
@@ -36,26 +33,25 @@ class NavBarHorizontal extends React.Component {
                   loading="lazy"
                 />
 
-                <b id="logoy" height="13px">YouTube</b>
+                <b id="logoy" height="13px">
+                  YouTube
+                </b>
                 {/* Buacar letra */}
               </a>
             </li>
             <li className="list-search">
               <div>
-              <form className="navbarform">
-                <input
-                  className="form-control mr-sm-2"
-                  id="searchbar"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                  width="100px"
-                >
-
-                </input>
-
-              </form>
-            </div>
+                <form className="navbarform">
+                  <input
+                    className="form-control mr-sm-2"
+                    id="searchbar"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                    width="100px"
+                  ></input>
+                </form>
+              </div>
               {/* <div className="input-group mb-3 navbarform">
                 <div className="input-group-prepend">
                   <span className="input-group-text" id="basic-addon1">
@@ -71,8 +67,6 @@ class NavBarHorizontal extends React.Component {
                   aria-describedby="basic-addon1"
                 />
               </div> */}
-
-
             </li>
           </ul>
         </nav>

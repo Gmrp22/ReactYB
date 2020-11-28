@@ -5,10 +5,7 @@ class Thumbnail extends React.Component {
   render() {
     return (
       <a href="#" className="thumbnail" data-duration={this.props.duracion}>
-        <img
-          className="thumbnail-image"
-          src={this.props.urlvideo}
-        />
+        <img className="thumbnail-image" src={this.props.urlvideo} />
       </a>
     );
   }

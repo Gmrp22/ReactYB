@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Teko:wght@500&family=Yanone+Kaffeesatz:wght@600&display=swap");
 
 .navhorizontal {
@@ -34,11 +33,9 @@
   padding-left: 150px;
   width: 100%;
   display: flex;
-  
 }
-#searchbar{
+#searchbar {
   width: 80%;
-
 }
 .search {
   width: 100%;
@@ -46,7 +43,6 @@
 
 .horizontal {
   width: 100%;
-
 }
 #logoy {
   font-family: "Yanone Kaffeesatz", sans-serif;
@@ -56,13 +52,13 @@
   box-sizing: border-box;
 }
 
-.list-menu{
+.list-menu {
   width: 4%;
 }
-.list-nombre{
+.list-nombre {
   width: 7%;
 }
 
-.list-search{
+.list-search {
   width: 89%;
 }

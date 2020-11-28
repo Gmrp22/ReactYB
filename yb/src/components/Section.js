@@ -8,18 +8,11 @@ class Section extends React.Component {
     console.log(this.props);
     const data = this.props.data;
     return (
-      // <div>
-      //   <SectionHeader />
-
       <section className="video-section">
-        
         {data.map((badge) => {
           return (
             <article className="video-container">
-              <Thumbnail
-                urlvideo={badge.urlvideo}
-                duracion={badge.duracion}
-              />
+              <Thumbnail urlvideo={badge.urlvideo} duracion={badge.duracion} />
               <InfoVideo
                 imgcanal={badge.imgcanal}
                 titulo={badge.titulo}
@@ -31,10 +24,6 @@ class Section extends React.Component {
           );
         })}
       </section>
-
-
-
-      // </div>
     );
   }
 }
