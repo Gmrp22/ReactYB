@@ -28,13 +28,14 @@
 }
 
 .vertical-subs {
-  height: 50%;
+  height: 33%;
   width: 240px;
   position: fixed;
   display: block;
-  margin-top: 465px;
+  margin-top: 445px;
   padding-top: 10px;
   background-color: #f1f1f1;
+  overflow-y: scroll;
   
 }
 .subs-icon {

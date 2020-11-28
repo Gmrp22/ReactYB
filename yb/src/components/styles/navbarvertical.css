@@ -19,12 +19,13 @@
 }
 
 .vertical {
-  height: 65%;
+  height: 67%;
   width: 240px;
   position: fixed;
   display: block;
   padding-top: 5px;
   background-color: #f1f1f1;
+  overflow-y: scroll;
 }
 
 .links:hover {
@@ -37,4 +38,9 @@
 #selected {
   color: red;
   font-weight: bold;
+}
+
+.vertical ul {
+margin-block-start: 0em;
+margin-block-end: 0em;
 }
