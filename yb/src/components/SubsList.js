@@ -11,7 +11,7 @@ class SubsList extends React.Component {
         <ul className="navvertical-subs">
           {dataj.map((badge) => {
             return (
-              <li>
+              <li key={badge.id}>
                 <span>
                   <img className="subs-icon" src={badge.imgcanal} />
                 </span>

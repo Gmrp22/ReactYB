@@ -11,7 +11,7 @@ class Section extends React.Component {
       <section className="video-section">
         {data.map((badge) => {
           return (
-            <article className="video-container">
+            <article className="video-container"  key={badge.id}>
               <Thumbnail urlvideo={badge.urlvideo} duracion={badge.duracion} />
               <InfoVideo
                 imgcanal={badge.imgcanal}

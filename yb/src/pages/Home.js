@@ -11,10 +11,12 @@ class Home extends React.Component {
           <NavBarHorizontal />
         </div>
         <div>
+        <div>
           <NavBarVertical />
         </div>
         <div>
           <SubsList />
+        </div>
         </div>
         <div>
           <ListaDeVideos />
